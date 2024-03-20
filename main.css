@@ -1,62 +1,47 @@
 body{
     background-color: #424242 !important;
-    text-align: center;
 }
 
 h2{
-    color:#fff;
-    font-family: 'Amatic SC', cursive;
-    font-size: 50px !important;
+    font-family: 'Yusei Magic', sans-serif;
     text-align: center;
-}
-
-h3{
-    color:#fff;
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;
-}
-
-p,textarea{
-    
-    font-family: 'Montserrat', sans-serif !important;
 
 }
 
 .content{
-    width: 80%;
-    height: 80%;
+    width: 50%;
     position: absolute;
-    top:20%;
-    left: 10%;
-}
-
-.box{
-    font-size: 25px !important;
+    top: 30%;
+    left: 25%;
     background-color: #fff;
-    color:#fff;
-    margin:10px;
     border-radius: 10px;
-
-    
-}
-.body{
-    padding: 10px;
-   height: 40% !important;
+    padding: 30px;
 }
 
-.head-to-do{
-    background-color: #f57c00;
-    border-radius: 10px 10px 0 0;
-    padding: 5px;
-    text-align: center;
+.heart-red{
+    text-align: right;
+    font-size: 25px;
+    color:#d32f2f;
 }
-.head-completed{
-    background-color:#43a047;
-    border-radius: 10px 10px 0 0;
-    padding: 5px;
-    text-align: center;
+.heart-grey{
+    font-size: 25px;
+    color:#ccc;
 }
-.btn-add{
-    padding: 10px 30px !important;
-    font-size: 30px !important;
+.text-aligin-right{
+    text-align: right;
+}
+
+.btn-purple{
+    background-color: #7e57c2 !important;
+    color: #fff !important;
+}
+
+.btn-hide{
+    display: none !important;
+    margin-top: 30px;
+}
+
+.btn-show{
+    display: inline-block !important;
+    margin-top:30px;
 }
